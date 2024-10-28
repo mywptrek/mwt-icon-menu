@@ -1,0 +1,29 @@
+.custom-menu-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-menu-class ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.custom-menu-class li:hover ul {
+    display: block;
+}
+
+.menu-icon {
+    margin-right: 10px;
+}
+
+.new-label {
+    background-color: yellow;
+    color: red;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
